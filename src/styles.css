@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    background-color: #2C2C2C;
+    font-size: 1rem;
+}
+
+h1 {
+    padding-left: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog {
+    display: block;
+    background-color: #9A9796;
+    width: 60vw;
+    margin: auto;
+    border-radius: 0.2rem;
+    height: auto;
+}
+
+.blog .btn {
+    border: none;
+    background-color: #E0D2CA;
+    font-size: 16px;
+}
+
+.new-story {
+    font-size: medium;
+}
+
+.blog form {
+    border: 1px solid #E0D2CA;
+    background-color: #E0D2CA;
+}
+
+input {
+    display: block;
+    width: 70%;
+    height: 2rem;
+    margin: 0.5rem 0;
+    font-size: medium;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 6rem;
+    resize: none;
+    padding-top: 0.5rem;
+}
+
+.btn-form,
+.btn-story {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-form button,
+.btn-story button {
+    margin: 0.2rem 0.3rem 0 0;
+}
+
+.story {
+    border-top: 1px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.story h2 {
+    margin: 0.2rem;
+}
+
+.story p {
+    white-space: pre-wrap;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    word-wrap: break-word;
+}
+
+.story span {
+    font-size: small;
+    cursor: pointer;
+}
+
+.story span:hover {
+    opacity: 0.5;
+}
